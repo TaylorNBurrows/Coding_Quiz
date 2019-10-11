@@ -14,6 +14,26 @@ var questions = [
         choices: ["True","False"],
         answer: "True"
 
-    }
+    },
+    {
+        title: "What does a prompt expect from the user",
+        choices: ["An Input","A confirmation","A Taco","A Boolean"],
+        answer: "An Input"
+
+    },
+    {
+        title: "What does the 'This' keyword mean in Javascript",
+        choices: ["Call 'this' latest function","The object from where it was called","The location within the DOM","The relationship between parent and the child"],
+        answer: "The object from where it was called"
+
+    },
+
+    {
+        title: "Which of the following could be used to select an HTML with the following (#thisIsMyID)",
+        choices: ["document.getId(#thisIsMyID)","document.getId(#thisIsMyID)","document.getElementById(#thisIsMyId)","document.getElementById(.thisIsMyId)"],
+        answer: "document.getElementById(#thisIsMyId)"
+
+    },
+
 
 ]
