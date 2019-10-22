@@ -5,4 +5,21 @@ Test your coding abilities by taking this short quiz. Positive answers get you +
 
 ## Screenshots: 
 
+* Step 1: Click submit to begin quiz.
+![Step 1](./Assets/StartingPoint.png)
+
+* Step 2: Select the right answer to the question
+![Step 2](./Assets/SelectQuestion.png)
+
+* Step 3: If you run out of time you'll see this message.
+![Step 3](./Assets/TimesUp.png)
+
+* Step 4: Enter your initials
+![Step 4](./Assets/initials.png)
+
+* Step 5: View highscores
+![Step 5](./Assets/Highscores.png)
+
+
+
 
