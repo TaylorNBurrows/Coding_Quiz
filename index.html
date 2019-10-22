@@ -2,47 +2,48 @@
 <html lang="en">
 
 <head>
-    <title></title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- <div id="quiz"></div>
-    <div class="HighScore">
-        <a href="highscore.html">View Highscores</a>
-    </div>
-    <div class="time"> Time: </div> -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark d-flex mb-3">
-            <a class="navbar-brand p-2" href="highscore.html">View Highscores</a>
-            <div class="ml-auto p-2" id="timer">
-                <span class="navbar-text"> Timer: 
-                </span>
-            </div>
-        </nav>
-    <div class="container">
+        <a class="navbar-brand p-2" href="highscore.html">View Highscores</a>
+        </div>
+        <!-- <div class="ml-auto p-2" id="timer" style="color: white;">Timer: <span> 90</span>
+        </div> -->
+    </nav>
+
+
+    </div>
+    <div class="container" style="background-color: white;">
+        <br><br><br>
         <div class="row">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6">
-                <h2 class="text-center">Coding Quiz Challenge</h2>
-                <p class="text-center">Click Start to take this coding quiz. Try to answer all of the multiple choice
-                    quesitons before the time is up. If you answer incorrectly, you will be penalized by 5 seconds. </p>
-                <div class="text-center">
-                    <button id="Start" class="btn btn-light m-auto"> Start Here </button>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div id="home" class="flex-center  flex-column"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif">
+                    <h2>Coding Quiz Challenge</h2><br>
+                    <p> Click Start to take this coding quiz. Try to answer all of the multiple choice
+                        quesitons before the time is up. If you answer incorrectly, you will be penalized by 5 seconds.
+                    </p>
+                    <br>
+                    <div class="text-center">
+                        <a button type="button" href="quiz.html" class="btn btn-light m-auto">Submit</a>
+                    </div>
+
                 </div>
+                <div class="col-lg-3"></div>
             </div>
-            <div class="col-lg-3"></div>
         </div>
 
 
     </div>
-    <div id="results"></div>
-
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>
